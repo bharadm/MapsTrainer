@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lotus.mapslocale.Main3Activity">
+        <Button
+            android:onClick="bt_newuser"
+            android:text="Register new user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteY="218dp"
+            tools:layout_editor_absoluteX="112dp"
+            android:layout_above="@+id/button2"
+            android:layout_alignEnd="@+id/button2"
+            android:layout_marginBottom="115dp" />
+        <Button
+            android:onClick="bt_map"
+            android:text="Search trainers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteY="365dp"
+            tools:layout_editor_absoluteX="119dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="139dp"
+            android:id="@+id/button2" />
+</RelativeLayout>
